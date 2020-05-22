@@ -19,13 +19,17 @@ namespace WindowsFormsGit
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void kunderenko_KN31_5_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Це мій анегодот","Вікно Кундеренка Д.І.", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+            MessageBox.Show("Це мій анегодот", "Вікно Кундеренка Д.І.", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
         }
-    
+        private void KN_11INT_3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Ахахахахахахахахахахахахахахахахахахахахахахахахахахахахахахаха", "Вікно Нечипорук М.І.", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+
+        }
     }
 }
