@@ -31,5 +31,10 @@ namespace WindowsFormsGit
             MessageBox.Show("Ахахахахахахахахахахахахахахахахахахахахахахахахахахахахахахаха", "Вікно Нечипорук М.І.", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
 
         }
+
+        private void Khmelnychyi_KN_31_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("I run alot, from my problems...", "Вікно Хмельничого Т.В.", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+        }
     }
 }
