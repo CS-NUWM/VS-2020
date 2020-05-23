@@ -31,14 +31,14 @@
             this.button1 = new System.Windows.Forms.Button();
             this.kunderenko_KN31_5 = new System.Windows.Forms.Button();
             this.KN_11INT_3 = new System.Windows.Forms.Button();
+            this.Khmelnychyi_KN_31 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(441, 25);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(331, 20);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(212, 63);
+            this.button1.Size = new System.Drawing.Size(159, 51);
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
@@ -46,9 +46,10 @@
             // 
             // kunderenko_KN31_5
             // 
-            this.kunderenko_KN31_5.Location = new System.Drawing.Point(441, 116);
+            this.kunderenko_KN31_5.Location = new System.Drawing.Point(331, 94);
+            this.kunderenko_KN31_5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.kunderenko_KN31_5.Name = "kunderenko_KN31_5";
-            this.kunderenko_KN31_5.Size = new System.Drawing.Size(212, 63);
+            this.kunderenko_KN31_5.Size = new System.Drawing.Size(159, 51);
             this.kunderenko_KN31_5.TabIndex = 1;
             this.kunderenko_KN31_5.Text = "Кундеренко";
             this.kunderenko_KN31_5.UseVisualStyleBackColor = true;
@@ -56,23 +57,34 @@
             // 
             // KN_11INT_3
             // 
-            this.KN_11INT_3.Location = new System.Drawing.Point(441, 205);
+            this.KN_11INT_3.Location = new System.Drawing.Point(331, 167);
+            this.KN_11INT_3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.KN_11INT_3.Name = "KN_11INT_3";
-            this.KN_11INT_3.Size = new System.Drawing.Size(212, 63);
+            this.KN_11INT_3.Size = new System.Drawing.Size(159, 51);
             this.KN_11INT_3.TabIndex = 2;
             this.KN_11INT_3.Text = "Нечипорук";
             this.KN_11INT_3.UseVisualStyleBackColor = true;
             this.KN_11INT_3.Click += new System.EventHandler(this.KN_11INT_3_Click);
             // 
+            // Khmelnychyi_KN_31
+            // 
+            this.Khmelnychyi_KN_31.Location = new System.Drawing.Point(331, 241);
+            this.Khmelnychyi_KN_31.Name = "Khmelnychyi_KN_31";
+            this.Khmelnychyi_KN_31.Size = new System.Drawing.Size(159, 51);
+            this.Khmelnychyi_KN_31.TabIndex = 3;
+            this.Khmelnychyi_KN_31.Text = "Хмельничий";
+            this.Khmelnychyi_KN_31.UseVisualStyleBackColor = true;
+            this.Khmelnychyi_KN_31.Click += new System.EventHandler(this.Khmelnychyi_KN_31_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Khmelnychyi_KN_31);
             this.Controls.Add(this.KN_11INT_3);
             this.Controls.Add(this.kunderenko_KN31_5);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -84,6 +96,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button kunderenko_KN31_5;
         private System.Windows.Forms.Button KN_11INT_3;
+        private System.Windows.Forms.Button Khmelnychyi_KN_31;
     }
 }
 
