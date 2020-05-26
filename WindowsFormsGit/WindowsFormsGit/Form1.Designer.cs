@@ -33,6 +33,7 @@
             this.KN_11INT_3 = new System.Windows.Forms.Button();
             this.Khmelnychyi_KN_31 = new System.Windows.Forms.Button();
             this.karpov_kn_31 = new System.Windows.Forms.Button();
+            this.Zhakun_KN11int_1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -87,11 +88,22 @@
             this.karpov_kn_31.UseVisualStyleBackColor = true;
             this.karpov_kn_31.Click += new System.EventHandler(this.karpov_kn_31_Click);
             // 
+            // Zhakun_KN11int_1
+            // 
+            this.Zhakun_KN11int_1.Location = new System.Drawing.Point(331, 373);
+            this.Zhakun_KN11int_1.Name = "Zhakun_KN11int_1";
+            this.Zhakun_KN11int_1.Size = new System.Drawing.Size(158, 63);
+            this.Zhakun_KN11int_1.TabIndex = 5;
+            this.Zhakun_KN11int_1.Text = "Жакун";
+            this.Zhakun_KN11int_1.UseVisualStyleBackColor = true;
+            this.Zhakun_KN11int_1.Click += new System.EventHandler(this.Zhakun_KN11int_1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(902, 610);
+            this.Controls.Add(this.Zhakun_KN11int_1);
             this.Controls.Add(this.karpov_kn_31);
             this.Controls.Add(this.Khmelnychyi_KN_31);
             this.Controls.Add(this.KN_11INT_3);
@@ -110,6 +122,7 @@
         private System.Windows.Forms.Button KN_11INT_3;
         private System.Windows.Forms.Button Khmelnychyi_KN_31;
         private System.Windows.Forms.Button karpov_kn_31;
+        private System.Windows.Forms.Button Zhakun_KN11int_1;
     }
 }
 
