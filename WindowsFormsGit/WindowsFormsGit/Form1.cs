@@ -44,5 +44,10 @@ namespace WindowsFormsGit
         {
             MessageBox.Show("колобок покотився", "Вікно Карпов", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button2, MessageBoxOptions.DefaultDesktopOnly);
         }
+
+        private void Zhakun_KN11int_1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Анекдот", "Вікно Жакун А.В.", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+        }
     }
 }
