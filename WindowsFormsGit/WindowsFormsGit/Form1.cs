@@ -55,5 +55,9 @@ namespace WindowsFormsGit
             string anecdot = "  Чи є у тебе мрія? \n- Є.\n- Яка ?\n-Хочу кинути пити.\n- Так кинь.\n- А як потім, жити без мрії?";
             MessageBox.Show(anecdot, "Жильчук В.Ю.", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
         }
+        private void turumkulov_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Повісився колобок", "Турумкулов В.Т. вікно!", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+        }
     }
 }
