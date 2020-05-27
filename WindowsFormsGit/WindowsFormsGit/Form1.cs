@@ -52,7 +52,7 @@ namespace WindowsFormsGit
 
         private void Zhylchuk_KN31_2_Click(object sender, EventArgs e)
         {
-            string anecdot = " Чи є у тебе мрія? \n- Є.\n- Яка ?\n-Хочу кинути пити.\n- Так кинь.\n- А як потім, жити без мрії?";
+            string anecdot = "  Чи є у тебе мрія? \n- Є.\n- Яка ?\n-Хочу кинути пити.\n- Так кинь.\n- А як потім, жити без мрії?";
             MessageBox.Show(anecdot, "Жильчук", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
         }
     }
