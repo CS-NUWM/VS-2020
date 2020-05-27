@@ -108,13 +108,14 @@
             // Zhylchuk_KN31_2
             // 
             this.Zhylchuk_KN31_2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.Zhylchuk_KN31_2.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.Zhylchuk_KN31_2.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.Zhylchuk_KN31_2.Location = new System.Drawing.Point(331, 348);
             this.Zhylchuk_KN31_2.Name = "Zhylchuk_KN31_2";
             this.Zhylchuk_KN31_2.Size = new System.Drawing.Size(159, 51);
             this.Zhylchuk_KN31_2.TabIndex = 6;
             this.Zhylchuk_KN31_2.Text = "Жильчук";
-            this.Zhylchuk_KN31_2.UseVisualStyleBackColor = true;
+            this.Zhylchuk_KN31_2.UseVisualStyleBackColor = false;
             this.Zhylchuk_KN31_2.Click += new System.EventHandler(this.Zhylchuk_KN31_2_Click);
             // 
             // Form1
