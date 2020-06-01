@@ -64,5 +64,15 @@ namespace WindowsFormsGit
         {
             MessageBox.Show("Петрику, ти уроки зробив?Ні.А чому тоді вже ліг спати ?Менше знаєш – краще спиш!", "Фучок Д.О.", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Malashchuk_KN31_7_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello World", "Вікно Малащук М.А.", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+        }
     }
 }
