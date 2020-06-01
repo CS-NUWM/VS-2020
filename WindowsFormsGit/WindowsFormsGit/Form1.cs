@@ -59,5 +59,10 @@ namespace WindowsFormsGit
         {
             MessageBox.Show("Повісився колобок", "Турумкулов В.Т. вікно!", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
         }
+
+        private void Fuchok_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Петрику, ти уроки зробив?Ні.А чому тоді вже ліг спати ?Менше знаєш – краще спиш!", "Фучок Д.О.", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+        }
     }
 }
