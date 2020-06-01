@@ -36,6 +36,7 @@
             this.Zhakun_KN11int_1 = new System.Windows.Forms.Button();
             this.Zhylchuk_KN31_2 = new System.Windows.Forms.Button();
             this.turumkulov = new System.Windows.Forms.Button();
+            this.Fuchok = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -129,11 +130,22 @@
             this.turumkulov.UseVisualStyleBackColor = true;
             this.turumkulov.Click += new System.EventHandler(this.turumkulov_Click);
             // 
+            // Fuchok
+            // 
+            this.Fuchok.Location = new System.Drawing.Point(331, 463);
+            this.Fuchok.Name = "Fuchok";
+            this.Fuchok.Size = new System.Drawing.Size(159, 56);
+            this.Fuchok.TabIndex = 8;
+            this.Fuchok.Text = "Фучок";
+            this.Fuchok.UseVisualStyleBackColor = true;
+            this.Fuchok.Click += new System.EventHandler(this.Fuchok_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(902, 610);
+            this.Controls.Add(this.Fuchok);
             this.Controls.Add(this.turumkulov);
             this.Controls.Add(this.Zhylchuk_KN31_2);
             this.Controls.Add(this.Zhakun_KN11int_1);
@@ -158,6 +170,7 @@
         private System.Windows.Forms.Button Zhakun_KN11int_1;
         private System.Windows.Forms.Button Zhylchuk_KN31_2;
         private System.Windows.Forms.Button turumkulov;
+        private System.Windows.Forms.Button Fuchok;
     }
 }
 
