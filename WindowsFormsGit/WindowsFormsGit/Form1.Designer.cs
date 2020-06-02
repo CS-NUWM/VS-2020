@@ -38,6 +38,7 @@
             this.turumkulov = new System.Windows.Forms.Button();
             this.Fuchok = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.Tyshevskyi_KN31 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -147,6 +148,17 @@
             this.Fuchok.Text = "Фучок";
             this.Fuchok.UseVisualStyleBackColor = true;
             this.Fuchok.Click += new System.EventHandler(this.Fuchok_Click);
+            //
+            // Tyshevskyi
+            //
+            this.Tyshevskyi_KN31.Location = new System.Drawing.Point(441, 498);
+            this.Tyshevskyi_KN31.Margin = new System.Windows.Forms.Padding(4);
+            this.Tyshevskyi_KN31.Name = "Tyshevskyi_KN31";
+            this.Tyshevskyi_KN31.Size = new System.Drawing.Size(212, 64);
+            this.Tyshevskyi_KN31.TabIndex = 7;
+            this.Tyshevskyi_KN31.Text = "Tyshevskyi";
+            this.Tyshevskyi_KN31.UseVisualStyleBackColor = true;
+            this.Tyshevskyi_KN31.Click += new System.EventHandler(this.Tyshevskyi_KN31_Click);
             // 
             // button2
             // 
