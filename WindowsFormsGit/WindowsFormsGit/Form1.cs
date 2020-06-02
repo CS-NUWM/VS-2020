@@ -74,5 +74,9 @@ namespace WindowsFormsGit
         {
             MessageBox.Show("Hello World", "Вікно Малащук М.А.", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
         }
-    }
+	private void Tyshevskyi_KN31_Click(object sender, EventArgs e)
+	{
+	    MessageBox.Show("How do you make holy water? You boil the hell out of it.", "Pavlo Tyshevskyi",  MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+	}
+   }
 }
